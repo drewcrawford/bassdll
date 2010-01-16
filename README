@@ -1,6 +1,6 @@
 COMPONENTS
 bassdll - the sound engine
-demos/core2 - A three-channel sample song using the engine.
+demos/core2 - A three-channel sample song using the engine.  You can hear the demo at http://www.youtube.com/watch?v=liRF4alsvaI
 
 INSTALLING/COMPILE
 
