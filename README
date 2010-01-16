@@ -1,0 +1,11 @@
+COMPONENTS
+bassdll - the sound engine
+demos/core2 - A three-channel sample song using the engine.
+
+INSTALLING/COMPILE
+
+The "bassdll" folder needs to  be moved into the "libraries" folder for your Arduino install.  On my Mac this is inside the Arduino.app package in /Applications.  Your mileage may vary.
+
+LICENSE
+
+All code released under the MIT license.  The song produced by the core2 program is licensed under CC-BY-SA-NC.
