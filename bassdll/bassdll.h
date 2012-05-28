@@ -22,7 +22,11 @@
 #ifndef BASSDILL_LIB
 #define BASSDILL_LIB
 //BASS.DLL
+#if defined(ARDUINO) && ARDUINO >= 100
+#include "Arduino.h"
+#else
 #include "WProgram.h"
+#endif
 #include <debug.h>
 #include <limits.h>
 #include <math.h>
