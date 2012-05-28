@@ -21,7 +21,11 @@
 
 #ifndef DEBUG_LIB
 #define DEBUG_LIB
-#import "WProgram.h"
+#if defined(ARDUINO) && ARDUINO >= 100
+#include "Arduino.h"
+#else
+#include "WProgram.h"
+#endif
 extern void debug(uint64_t);
 
 #endif
